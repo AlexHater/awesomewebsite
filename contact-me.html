@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles1.css">
 </head>
 <body>
-    <h1> My contact details:</h1>
+    <h1 id="grey"> My contact details:</h1>
     <p>My email: eduardalex86@yahoo.com</p>
     <p>My ph. number: 0955959539</p>
 <hr>
+<div class="form">
     <form action="mailto:eduardalex86@yahoo.com" method="POST" enctype="text/plain">
         <label for="name">Your name:</label>
         <input type="text" id="name" name="yourName"><br><br>
         <label for="email">Your email:</label>
-        <input type="email" name="yourEmail"><br><br>
+        <input type="email" id="email" name="yourEmail"><br><br>
         <label for="message">Your Message:</label>
         <textarea name="yourMessage" id="message" cols="20" rows="5"></textarea><br><br>
         <label > Are you an employer?</label>
         <input type="radio"><br><br>
         <input type="submit">
     </form>
+</div>
+
+<img class="doggo" src="doggo.png" alt="doggo">
+
 </body>
-</html>
+</html> 
