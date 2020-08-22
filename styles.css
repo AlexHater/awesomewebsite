@@ -1,6 +1,10 @@
 body {
     background-color: #f6f4e6;
     margin: 0px;    
+    text-align:center;
+}
+table {
+    margin: 0 auto;
 }
 table tr td img {
     height:200px;
@@ -8,15 +12,15 @@ table tr td img {
 #t01 tr th {
     font-size: 25px;
     color: #52575d;
-    margin: 0px;
     border-spacing: 0px;
 }
 hr {
     border-style: none;
     border-top-style: dotted;
     border-color: grey;
-    border-width: 5px;
-    width: 5%;
+    border-width: 3px;
+    width: 20%;
+    margin: 4rem auto;
 }
 
 #grey {
