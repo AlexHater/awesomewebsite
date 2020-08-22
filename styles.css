@@ -26,10 +26,33 @@ hr {
 #grey {
     color: #52575d;
 }
+.scenery img{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: -9rem;
+    z-index: -1;
+    opacity: 40%;
+}
 
 .doggo {
     width: 15%;
     position: fixed;
     bottom: 0;
     right: 30px;
+}
+#border-line {
+    border-style: solid;
+    border-color: grey;
+    border-width: 3px;
+    width: 100%;
+    margin-top: -0.3rem;
+}
+#table2 {
+    margin-bottom: 3rem;
+}
+
+#contact {
+    margin-top: 3rem;
 }
