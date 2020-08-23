@@ -29,6 +29,7 @@ p {
     right: 3rem;
     top: 15rem;
 }
+
 #city {
     width: 118.7rem;
     height: 67rem;
@@ -46,13 +47,19 @@ table {
     position: absolute;
     margin: 3rem 0 0 3rem;
 }
-#t01 tr td img {
-    height:12.5rem;  
-}
+
 #t01 tr th {
     font-size: 1.5625rem;
     color: black;
     border-spacing: 0;
+    font-weight: normal;    
+    color: #11999E;
+    line-height: 1.7; 
+    width: 31rem;
+}
+#t01 tr td img {
+    width: 13rem;
+    height:auto;
 }
 
 
@@ -65,26 +72,36 @@ table {
     margin: 4rem auto;
 }
 #titles {
-    color: #292b2e;
+    color:#11999E;
     text-align: center;
     margin-top: 3em;
 }
 
 .titles {
-    color: #292b2e;
+    color:#11999E;
     text-align: center;
 }
 
 
 .Teachings-Table {
+    font-size: 1.2rem;
     list-style-type: none;
     text-align: center;
     margin-top: 2rem;
-    font-size: 1.2rem;
+    font-weight: normal;
 }
-
-.doggo {
-    width: 15%;
+#bubble {
+    width: 10rem;
+    position: fixed;
+    bottom: 7rem;
+    right:5rem;
+    transition: width 0.3s;
+}
+#bubble:hover {
+    width: 11rem;
+}
+#doggo {
+    width: 10%;
     position: fixed;
     bottom: 0;
     right: 1.875rem;
@@ -98,7 +115,7 @@ table {
     margin-top: 3rem;
     text-align: center;
 }
- p {
+p {
     text-align: center;
  }
  .button {
@@ -109,3 +126,47 @@ table {
      text-decoration: none;
      font-size: 3rem;
  }
+.skill-row-html {
+    margin: 7rem auto 7rem auto;
+}
+.skill-row-html table tr td h1 {
+    color:#11999E;
+    font-size: 2rem;
+    line-height:2;
+    margin: 0;
+}
+.skill-row-html table tr td h2 {
+    font-size: 1.2rem;
+    padding-top: 3rem;
+}
+.bio {
+    font-family: 'Alata', sans-serif;
+    font-size: 1rem;
+    padding-bottom: 3rem;
+    width: 33rem;
+    line-height: 2rem;
+}
+ #html5 {   
+     width: 15rem;
+     height: auto;
+     margin-left: 3rem;
+ }
+
+ .skill-row-css {
+     margin: 7rem auto 7rem auto;
+ }
+ .skill-row-css table tr td h1 {
+    color:#11999E;
+    font-size: 2rem;
+    line-height:2;
+    margin: 0;
+}
+.skill-row-css table tr td h2 {
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+}
+#css3 {
+    width: 15rem;
+    height: auto;
+    margin-right: 5rem;
+}

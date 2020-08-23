@@ -36,9 +36,9 @@ hr {
     border:1px solid black;
 }
 
-.doggo {
-    width: 15%;
+#doggo {
+    width: 10%;
     position: fixed;
     bottom: 0;
-    right: 30px;
+    right: 1.875rem;
 }
