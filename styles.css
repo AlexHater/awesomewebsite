@@ -1,58 +1,111 @@
 body {
-    background-color: #f6f4e6;
-    margin: 0px;    
-    text-align:center;
+    margin: 0; 
+    background-color:#e8ffff;  
+    font-family: 'Lobster', cursive;
+    color: #52575d;
+    text-align: center;
 }
+h1 {
+    font-family: 'Alata', sans-serif;
+}
+h2 {
+    font-family: 'Alata', sans-serif;
+}
+p {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.container {
+    position: relative;
+    height:67rem;
+    width: 118.7rem;
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+
+#plane {
+    position: absolute;
+    width: 22rem;
+    z-index: -1;
+    right: 3rem;
+    top: 15rem;
+}
+#city {
+    width: 118.7rem;
+    height: 67rem;
+    left: auto;
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
+
 table {
     margin: 0 auto;
 }
-table tr td img {
-    height:200px;
+#t01 {
+    position: absolute;
+    margin: 3rem 0 0 3rem;
+}
+#t01 tr td img {
+    height:12.5rem;  
 }
 #t01 tr th {
-    font-size: 25px;
-    color: #52575d;
-    border-spacing: 0px;
+    font-size: 1.5625rem;
+    color: black;
+    border-spacing: 0;
 }
-hr {
+
+
+.hr {
     border-style: none;
     border-top-style: dotted;
     border-color: grey;
-    border-width: 3px;
+    border-width: 0.27rem;
     width: 20%;
     margin: 4rem auto;
 }
-
-#grey {
-    color: #52575d;
+#titles {
+    color: #292b2e;
+    text-align: center;
+    margin-top: 3em;
 }
-.scenery img{
-    position: absolute;
-    width: 100%;
-    left: 0;
-    right: 0;
-    top: -9rem;
-    z-index: -1;
-    opacity: 40%;
+
+.titles {
+    color: #292b2e;
+    text-align: center;
+}
+
+
+.Teachings-Table {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
 }
 
 .doggo {
     width: 15%;
     position: fixed;
     bottom: 0;
-    right: 30px;
+    right: 1.875rem;
 }
-#border-line {
-    border-style: solid;
-    border-color: grey;
-    border-width: 3px;
-    width: 100%;
-    margin-top: -0.3rem;
-}
+
 #table2 {
     margin-bottom: 3rem;
 }
 
 #contact {
     margin-top: 3rem;
+    text-align: center;
 }
+ p {
+    text-align: center;
+ }
+ .button {
+     position: absolute;
+     top: 2rem;
+     right: 5rem;
+     color: white;
+     text-decoration: none;
+     font-size: 3rem;
+ }
