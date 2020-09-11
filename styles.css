@@ -16,7 +16,7 @@ p {
 }
 .container {
     position: relative;
-    height: 79rem;
+    height: 67vw;
     width: 100vw;
     margin: 0;
 }
@@ -29,10 +29,11 @@ p {
 }
 
 #city {
-    width: 118.8rem;
+    width: 100vw;
     height: auto;
-    position: absolute;
-    right:0;    
+    display: flex;
+    align-items: center;
+    justify-content: center;    
     z-index: -2;  
 }
 .lies-table {
@@ -45,6 +46,9 @@ table {
     position: absolute;
     margin: 3rem 0 0 3rem;
     padding: 20px;
+    top: 0;
+    width: 50vw;
+    height: 15vw;   
 }
 #t01 img {
     float: left;
@@ -134,38 +138,39 @@ p {
 
 
 .skill-row {
+    height: 10vw;
     width: 70%;
-    margin: 5rem auto 2rem auto;
+    margin: 5vw auto 2vw auto;
     text-align: left;
     line-height:2;
     margin-bottom: 20vw;
 }
 #code-img {
-    width: 25%;
+    width: 20%;
     float:left;
-    margin-right: 2rem;
+    margin-right: 2vw;
 }
 #css-img {
-    width: 25%;
+    width: 20%;
     float: right;
-    margin-left: 2rem;
-    margin-top: -rem;
+    margin-left: 2vw;
 }
 .skill-row h2 {
     line-height: 2;
     color: #057fd0;
     margin: 0;
     margin-top: 2rem;
-    
+    font-size: 1vw;
+    text-align: center;
 }
 
 .skill-row p {
     color: black;
     font-weight:500;
-    font-size: 1.4rem;
+    font-size: 1vw;
     font-family: 'Kufam', cursive;
-    text-align: left;
-    margin-top: 2rem; 
+    text-align: center;
+    margin-top: 2vw; 
 }
 
 .bottom-container {
@@ -197,7 +202,7 @@ p {
 
 }
 .photos-container div img {
-    width: 20rem;
+    width: 20vw;
 }
 #h1 {
     color: #11999E;
@@ -255,11 +260,13 @@ p {
 }
 @media (max-width:768px) {
     .photos-container {
+        width: 100vw;
+        height: 120vw;
         display:flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 4rem auto 4rem auto;
+        margin: 5vw auto 5vw auto;
     }
     #city {
         display: none;
@@ -274,12 +281,23 @@ p {
         align-items: center;
         justify-content: center;
     }
+    #t01 {
+        margin: 0;
+        height: 110vw;
+        width: 70vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
     #t01 img {
         min-width: 50vw;
         width: 30vw;
     }
     #t01 h1 {
         clear:left;
+        width: 70vw;
     }
     .message-box-doggo {
         width: 30%;
@@ -306,5 +324,29 @@ p {
         bottom: 0;
         right: 0;
     }
-
+    .bottom-container {
+        height: 30vw;
+    }
+    .bottom-container h2 {
+        height: 10vw;
+        font-size: 4vw;
+    }
+    .photos-container div img {
+        width: 35vw;
+    }
+    .skill-row {
+        margin-top: 2vw;
+        height: 35vw;
+        text-align: center;
+    }
+    .skill-row p {
+        padding-top: 5vw;
+        font-size: 2.8vw;
+        text-align: center;
+    }
+    .skill-row h2 {
+        line-height: 1.5;
+        font-size: 3vw;
+        text-align: center;
+    }
 }
