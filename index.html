@@ -6,18 +6,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Condensed:wght@100&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
 </head>
 <body>  
     <div class="container">
-        <table id="t01" cellspacing="20">
-            <tr>
-                <td><img  src="images/je.png" alt="My Profile Picture" width="129px" height="129px"></td>
-                <th> Hey there, my name is Alex. I like to hang out! What about you?😎</hd>
-            </tr>
-        </table>
-                <a class="button" href="contact-me.html"> Contact me!</a>
-                <img id="plane" src="images/plane.png" alt="myplane">
-                <img id="city" src="images/city.png" alt="mycity">
+        <div id="t01">
+            <img  src="images/je.png" alt="My Profile Picture">
+            <h1> Hey there, my name is Alex. I like to hang out! What about you?😎</h1>
+        </div>
+        
+        <div>
+            <img id="plane" src="images/plane.png" alt="myplane">
+            <img id="city" src="images/city.png" alt="mycity">
+        </div>
     </div>
 <h1 id="titles">Teachings</h1>
 
@@ -28,7 +29,7 @@
 <hr class="hr">
 
 <h1 class="titles"> Experience </h1>
-<table cellspacing="10">
+<table class="lies-table">
     <tr>
         <td> 2013 - 2014 </td>
         <td> Pizza Delivery Guy</td>
@@ -47,38 +48,41 @@
 
 <div class="Skills">
     <h1 class="titles">Skills</h1>
-    <div class="skill-row-html">
-        <table> 
-            <tr>
-                <td>
-                    <h1>HTML5</h1>
-                    <h2>I've started learning HTML5 around 15.07.2020</h2>
-                    <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet elementum mi. Mauris porta augue ante, vestibulum cursus magna facilisis vitae.</p>
-                </td>
-                <td>
-                    <img id="html5" src="images/html5.png" alt="HTML5">
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="skill-row-css">
-        <table> 
-            <tr>
-                <td>
-                    <img id="css3" src="images/css.png" alt="CSS3">
-                </td>
-                <td>
-                    <h1>CSS3</h1>
-                    <h2>I've started learning CSS around 19.08.2020</h2>
-                    <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet elementum mi. Mauris porta augue ante, vestibulum cursus magna facilisis vitae.</p>
-                </td>
-            </tr>
-        </table>
-    </div>
+        <div class="skill-row">
+            <img id="code-img" src="images/html5.png" alt="HTML5">
+            <h2>Hyper Text Markup Language 5</h2>
+            <p>I've first started learning HTML5 around when i was 14 y.o. but I dropped it for photoshop and graphics. Some time ago I came back. </p>                
+        </div>
+        <div class="skill-row">
+            <img id="css-img" src="images/css.png" alt="CSS3">
+            <h2>Cascading Style Sheets</h2>
+            <p>I've first startead learning CSS3 whan i was 15 y.o.(i think). </p>
+        </div>
+</div>
+<div class="message-box-doggo">
+    <a href="contact-me.html"><img id="bubble" src="images/bubble.png" alt="bubble"></a>
+<img id="doggo" src="images/doggo.png" alt="doggo">
 </div>
 
-<hr class="hr">
-<a href="contact-me.html"><img id="bubble" src="images/bubble.png" alt="bubble"></a>
-<img id="doggo" src="images/doggo.png" alt="doggo">
+
+<h1 style="color: #11999E"> Some photos with me:</h1>
+<div class="photos-container">
+    <div class="box-1">
+        <img src="images/111.jpg" alt="photo">
+    </div>
+    <div class="box-2">
+        <img src="images/112.jpg" alt="photo">
+    </div>
+    <div class="box-3">
+        <img src="images/catto.png" alt="photo">
+    </div>
+
+</div>
+
+<div class="bottom-container">
+        <h2>You can contact me on the following:</h2>
+        <a href="https://www.facebook.com/alex.eduard.372/" type="button" class="btn"> Facebook </a>
+        <a href="https://www.linkedin.com/in/alex-eduard-28167b171/" type="button" class="btn"> Linkedin</a>
+</div>
 </body>
 </html>
