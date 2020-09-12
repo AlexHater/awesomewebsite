@@ -25,7 +25,7 @@ p {
 }
 .t01 {
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 25%;
     width: 50%;
     height: 15vw;   
@@ -37,7 +37,7 @@ p {
 }
 
 .t01 h1  {
-    font-size: 1.3vw;
+    font-size: 2vw;
     color: black;
     font-weight: normal;    
     color: #11999E;
@@ -309,23 +309,23 @@ p {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 50vw;
     }
-    #t01 {
-        margin: 0;
+    .t01 {
         height: 100vw;
         width: 70vw;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin: 0;
+
     }
-    #t01 img {
+    .t01 img {
         min-width: 50vw;
         width: 30vw;
     }
-    #t01 h1 {
-        clear:left;
+    .t01 h1 {
+        font-size: 5vw;
         width: 70vw;
     }
     .message-box-doggo {
@@ -380,6 +380,7 @@ p {
     }
     .footer {
         width: 100vw;
+        height: 80vw;
     }
     .footer .inner_footer {
         width: 90%;
@@ -387,25 +388,27 @@ p {
 
     .inner_footer .logo_container,
     .inner_footer .footer_third {
+        display: block;
         width: 100%;
-        margin-bottom: 1vw;
+        margin-bottom: 10vw ;
     }
     .inner_footer .logo_container img {
         width: 15vw;
     }
     .inner_footer .footer_third h1 {
-        font-size: 6vw;
+        padding-top:5vw;
+        font-size: 4vw;;
     }
     .inner_footer .footer_third a {
-        font-size: 2.78vw;
-        padding-bottom: 3vw;
+        font-size: 2vw;
     }
     .inner_footer .footer_third p {
-        font-size: 2.78vw;
-
+        font-size: 2vw;
     }
     .row div img {
         min-width: 50vw;
-        margin-top: 10vw;
+    }
+    .titles {
+        font-size: 10vw;
     }
 }
