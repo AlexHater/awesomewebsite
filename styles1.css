@@ -1,5 +1,5 @@
 body {
-    background-color: #f6f4e6;
+    background-color:#e8ffff;
     margin: 0;
     text-align: center;
 }
@@ -22,17 +22,17 @@ hr {
 }
 
 .form form #name {
-    background-color:   #f6f4e6;
+    background-color:  white;
     border:1px solid black;
 }
 
 .form form #email {
-    background-color:   #f6f4e6;
+    background-color:   white;
     border:1px solid black;
 }
 
 .form form #message {
-    background-color:   #f6f4e6;
+    background-color:  white;
     border:1px solid black;
 }
 

@@ -3,21 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Yo wazzap</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Bootstrap -->
+     
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Condensed:wght@100&family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+
+    <!-- JQuery for Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- JQuery for Bootstrap -->
+ 
 </head>
 <body>  
     <div class="container">
-        <div id="t01">
+        <div class="t01">
             <img  src="images/je.png" alt="My Profile Picture">
-            <h1> Hey there, my name is Alex. I like to hang out! What about you?😎</h1>
-        </div>
-        
-        <div>
-            <img id="plane" src="images/plane.png" alt="myplane">
-            <img id="city" src="images/city.png" alt="mycity">
+                <div class="header-margin">
+                <h1> Hey there, my name is Alex. </h1>
+                <h1>I like to hang out! What about you?😎</h1>
+            </div>
         </div>
     </div>
 <h1 id="titles">Teachings</h1>
@@ -65,32 +77,55 @@
 </div>
 
 
-<h1 style="color: #11999E"> Some photos with me:</h1> <br>
-<div class="photos-container">
-    <div class="box-1">
+<div class="para">
+    <h1> Some photos with me:</h1> 
+</div>
+<br>
+<div class="row">
+    <div class="col-lg-3 col-md-4">
         <img src="images/111.jpg" alt="photo">
     </div>
-    <div class="box-2">
+    <div class="col-lg-3 col-md-4">
         <img src="images/112.jpg" alt="photo">
     </div>
-    <div class="box-3">
+    <div class="col-lg-3 col-md-4">
         <img src="images/catto.png" alt="photo">
     </div>
-
+    <div class="col-lg-3 col-md-4">
+        <img src="images/111.jpg" alt="photo">
+    </div>
+    <div class="col-lg-3 col-md-4">
+        <img src="images/112.jpg" alt="photo">
+    </div>
+    <div class="col-lg-3 col-md-4">
+        <img src="images/catto.png" alt="photo">
+    </div>
 </div>
 
-<div class="bottom-container">
-        <h2>You can contact me on the following:</h2>
-        <a href="https://www.facebook.com/alex.eduard.372/">
-            <button class="btn">
-                Facebook 
-            </button>
-        </a>
-        <a href="https://www.linkedin.com/in/alex-eduard-28167b171/">
-            <button class="btn">    
-                Linkedin
-            </button>
-        </a>
+
+<div class="footer">
+    <div class="inner_footer">
+        <div class="logo_container">
+            <img src="images/hand.png" alt="romania_logo">  
+        </div>
+        <div class="footer_third">
+            <h1> Let's talk</h1>
+            <p><a href="https://www.facebook.com/alex.eduard.372/" id="fb_color"> Contact me on Facebook</a></p>
+            <p><a href="https://www.linkedin.com/in/alex-eduard-28167b171/" id="linkedin_color">Contact me Linkedin</a></p>
+        </div>
+        <div class="footer_third">
+            <h1> About me?</h1>
+            <p>I like horror movies and sweets <br>
+            I LIKE memes and video games. <br>
+            I'm from Romania.</p>
+        </div>
+        <div class="footer_third">
+            <h1> Random text</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            
+        </div>
+        
+    </div>
 </div>
 </body>
 </html>
