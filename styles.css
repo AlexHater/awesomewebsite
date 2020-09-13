@@ -4,11 +4,9 @@ body {
     margin: 0; 
     text-decoration: none;
     background-color:#e8ffff;  
-    font-family: 'Lobster', cursive;
     color: #40514E;
-    text-align: center;
 }
-h1 {
+/* h1 {
     font-family: 'Alata', sans-serif;
 }
 h2 {
@@ -16,12 +14,13 @@ h2 {
 }
 p {
     font-family: 'Barlow Condensed', sans-serif;
-}
+} */
 .container {
     position: relative;
     height: 57vw;
     width: 100vw;
     margin: 0 auto 0 auto;
+    text-align: center;
 }
 .t01 {
     position: absolute;
@@ -49,7 +48,7 @@ p {
 }
 .lies-table {
     padding: 3vw;
-    margin: 0 auto;
+    margin: 5vw auto;
 }
 
 .hr {
@@ -60,16 +59,12 @@ p {
     width: 20%;
     margin: 4rem auto;
 }
-#titles {
-    color:#11999E;
-    text-align: center;
-    margin-top: 5rem;
-    font-size: 3rem;
-}
+
 
 .titles {
+    font-size: 3rem;
     color:#11999E;
-    text-align: center;
+    text-align: center;;
 }
 
 
@@ -201,80 +196,6 @@ p {
     width: 15vw;   
 }
 
-.footer {
-    width: 100vw;
-    display: block;
-    overflow: hidden;
-    padding: 3vw 0 3vw 0;
-    box-sizing: border-box;
-    background-color: #11999E;
-    margin-top: 3vw;
-}
-
-.inner_footer {
-    display: block;
-    margin: 0  auto; 
-    width: 70vw;
-    height: 7vw;
-}
-
-.inner_footer .logo_container {
-    width: 25%;
-    float: left;
-    height: 9vw;
-    display: block;
-}
-.inner_footer .logo_container img {
-    width: 10vw;
-    height: auto;
-    margin: 0 auto;
-}   
-
-.inner_footer .footer_third {
-    width: calc(21.7% - 20px);
-    margin-right: 2vw;
-    float: left;
-    height: 100%;
-}
-
-.inner_footer .footer_third:last-child{
-    margin-right: 0;
-}
-
-.inner_footer .footer_third h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2vw;
-    color: white;
-    display: block;
-    width: 100%;
-}
-
-.inner_footer .footer_third a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1vw;
-    color: white;
-    display: block;;
-    padding-bottom: 2px;
-    line-height: 1.2;
-}
-.inner_footer .footer_third p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .78vw;
-    color: white;
-    display: block;
-    line-height: 1.2;
-    margin: 0;
-    padding: 0;
-}
-.inner_footer .footer_third a {
-    display: inline;
-}
-
-.inner_footer .footer_forth {
-    width: 15%;
-    margin-right: 1vw;
-    height: 100%;
-}
 
 .para {
     position: absolute;
@@ -300,8 +221,170 @@ p {
 .row {
     margin-top: 5vw;
     overflow:hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
+/* Footer */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+footer{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background: #111;
+  
+}
+.main-content{
+  display: flex;
+  margin: 0 2rem;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 50px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 40px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #0079bf;
+  top: -10px;
+}
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 10px;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: white;
+}
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background: white;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form textarea:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+  width: 100%;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #3498db;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+  background: whitesmoke;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #0079bf;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
+
+
+/* End Footer */
 
 @media (max-width:768px) {
     .container {
@@ -359,7 +442,7 @@ p {
     }
     .skill-row {
         margin-top: 2vw;
-        height: 35vw;
+        height: 30vw;
         text-align: center;
     }
     .skill-row p {
@@ -379,37 +462,16 @@ p {
         margin-bottom: 20vw;
         font-size: 7vw;
     }
-    .footer {
-        width: 110vw;
-        height: 80vw;
-    }
-    .footer .inner_footer {
-        width: 90%;
-    }
-
-    .inner_footer .logo_container,
-    .inner_footer .footer_third {
-        display: block;
-        width: 100%;
-        margin-bottom: 10vw ;
-    }
-    .inner_footer .logo_container img {
-        width: 15vw;
-    }
-    .inner_footer .footer_third h1 {
-        padding-top:5vw;
-        font-size: 4vw;;
-    }
-    .inner_footer .footer_third a {
-        font-size: 2vw;
-    }
-    .inner_footer .footer_third p {
-        font-size: 2vw;
-    }
     .row div img {
         min-width: 50vw;
+        margin: 3vw;
     }
     .titles {
-        font-size: 10vw;
+        font-size: 8vw;
+    }
+}
+@media (max-width:900px) {
+    .titles {
+    font-size: 6vw;
     }
 }
