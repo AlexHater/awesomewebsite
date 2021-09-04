@@ -6,15 +6,25 @@ body {
     background-color:#e8ffff;  
     color: #40514E;
 }
-/* h1 {
-    font-family: 'Alata', sans-serif;
+
+#button {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #11999E;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration:none;
+  font-size: 16px;
+  position: absolute;
+  width: 200px;
+  top: 50px;
+  left: 50px;
+  cursor: pointer;
+  border-radius: 25px;
 }
-h2 {
-    font-family: 'Alata', sans-serif;
-}
-p {
-    font-family: 'Barlow Condensed', sans-serif;
-} */
+
+
 .container {
     position: relative;
     height: 57vw;
@@ -49,6 +59,9 @@ p {
 .lies-table {
     padding: 3vw;
     margin: 5vw auto;
+}
+.present {
+  padding-right: 10px;
 }
 
 .hr {
@@ -88,7 +101,6 @@ p {
     min-width: 5vw;
     width: 10vw;
     z-index: 1;
-
     position: absolute;
     bottom: 7vw;
     right:3vw;
@@ -97,6 +109,10 @@ p {
 #bubble:hover {
     width: 15vw;
     z-index: 1;
+
+}
+
+#bubble:click {
 
 }
 #doggo {
@@ -187,20 +203,12 @@ p {
 .box-3{
     flex: 1;
     order: 1;
-}
-
-
-
-
-.row div img {
-    width: 15vw;   
-}
-
+} 
 
 .para {
     position: absolute;
     color: #11999E;
-    width: 100vw;
+    width: 100%;
     height: 3vw;
 }
 .para h1 {
@@ -218,12 +226,19 @@ p {
 .contact p {
     color: white;
 }
+
 .row {
-    margin-top: 5vw;
+    width: 100%;
+    margin-top: 4vw;
+    margin-bottom: 2vw;
     overflow:hidden;
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+.row div img {
+  width: 17vw;   
 }
 
 /* Footer */
@@ -419,17 +434,6 @@ footer{
         bottom: 0;
         right: 5vw;
     }
-    #bubble {
-        min-width: 5vw;
-        width: 20vw;
-        position: absolute;
-        bottom: 15vw;
-        right:9vw;
-        transition: width 0.3s;
-    }
-    #bubble:hover {
-        width: 25vw;
-    }
     #doggo {
         min-width: 5vw;
         width: 25vw;
@@ -461,10 +465,6 @@ footer{
     .para h1 {
         margin-bottom: 20vw;
         font-size: 7vw;
-    }
-    .row div img {
-        min-width: 50vw;
-        margin: 3vw;
     }
     .titles {
         font-size: 8vw;

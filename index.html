@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Center of Awesomeness</title>
+
+    <!--  JSCRIPT -->
+    <script src="/AwesomeWebsite/script.js" type="text/javascript"></script>
+    <!--  JSCRIPT -->
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Bootstrap -->
@@ -24,13 +29,20 @@
     <!-- JQuery for Bootstrap -->
  
 </head>
-<body>  
+
+<body> 
+
+  <div title ="Word Counter" id="button" onclick="clickCounter()">
+    <a> Click </a>
+  </div>
+  
     <div class="container">
         <div class="t01">
             <img  src="images/je.png" alt="My Profile Picture">
                 <div class="header-margin">
                 <h1> Hey there, my name is Alex.
                 I like to hang out! What about you?😎</h1>
+                <p id="demo"></p>
             </div>
         </div>
     </div>
@@ -38,7 +50,7 @@
 
     <ul class="Teachings-Table">
         <li><strong>The Complete Web Development Bootcamp</strong></li>
-    </ul>
+    </ul> 
 
 <hr class="hr">
 
@@ -53,9 +65,13 @@
         <td>University Teacher</td>
     </tr>
     <tr>
-        <td> 2015 - Present</td>
+        <td cass="present"> 2015 - 2017</td>
         <td>President of Europe</td>
     </tr>
+    <tr>
+      <td class="present">2017 - Present</td>
+      <td>Warlord</td>
+  </tr>
 </table>
 
 <hr class="hr">
@@ -147,8 +163,8 @@
     </div>
     <div class="bottom">
       <center>
-        <span class="credit">Created By <a href=https://www.facebook.com/alex.eduard.372/">Alex</a> | </span>
-        <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+        <span>Created By <a href=https://www.facebook.com/alex.eduard.372/">Alex</a> | </span>
+        <span title="Just kidding."> 2020 All rights reserved.</span>
       </center>
     </div>
   </footer>
