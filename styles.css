@@ -18,7 +18,7 @@ body {
   font-size: 16px;
   position: absolute;
   width: 200px;
-  top: 50px;
+  top:5vw;
   left: 50px;
   cursor: pointer;
   border-radius: 25px;
@@ -43,6 +43,11 @@ body {
     margin:auto;
     width: 15vw;
     min-width: 5vw;
+    cursor: pointer;
+}
+
+.t01 img:hover {
+  
 }
 
 .t01 h1  {
@@ -155,6 +160,11 @@ p {
     width: 20%;
     float: right;
     margin-left: 2vw;
+}
+#jscript-img {
+  width: 20%;
+  float: left;
+  margin-right: 2vw;
 }
 .skill-row h2 {
     line-height: 2;
@@ -426,6 +436,7 @@ footer{
     .t01 h1 {
         font-size: 5vw;
         width: 70vw;
+
     }
     .message-box-doggo {
         width: 30%;

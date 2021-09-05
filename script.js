@@ -2,7 +2,7 @@ var count = 1;
 
     function clickCounter(){
         if( count < 30){
-            document.getElementById("button").innerHTML = "Click " + count;
+            document.getElementById("button").innerHTML = "Click Counter " + count;
             count++;
         }
         else if(count >= 30 ) {
@@ -15,7 +15,8 @@ var count = 1;
         image.style.borderRadius = "50%";
     }
     function noColorFunction(){
-        var image = document.getElementById("myImage");
-        image.src="images/je.png";
-
+        setTimeout(() => {
+            var image = document.getElementById("myImage");
+            image.src="images/je.png";
+        }, 1000);
     }
