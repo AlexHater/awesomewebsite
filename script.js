@@ -1,13 +1,15 @@
 var count = 1;
 
     function clickCounter(){
-        if( count < 30){
+        if(count < 30){
             document.getElementById("button").innerHTML = "Click Counter " + count;
             count++;
         }
-        else if(count >= 30 ) {
-            document.getElementById("button").innerHTML = "Useless Achievement Unlocked!"; } 
-        }
+        if(count >= 30 ) {
+            document.getElementById("button").innerHTML = "Useless Achievement Unlocked!"; 
+            count++;
+        } 
+    }
 
     function colorFunction(){
         var image = document.getElementById("myImage");
