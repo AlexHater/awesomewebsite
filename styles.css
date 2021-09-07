@@ -526,8 +526,14 @@ footer{
     cursor: pointer;
     right: 3%;
     top: 1%;
-    height: 40px;
+    height: 12vw;
     z-index: 2;
+   }
+
+   .line {
+     width: 10vw;
+     height: 1vw;
+     margin:1vw;
    }
 
     .nav-links {
