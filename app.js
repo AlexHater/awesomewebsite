@@ -22,3 +22,11 @@ var count = 1;
             image.src="images/je.png";
         }, 1000);
     }
+
+let hamburger1 = document.getElementById("hamburger");
+const navLinks = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links li");
+
+hamburger1.addEventListener("click", () => {
+    navLinks.classList.toggle("open");
+})
