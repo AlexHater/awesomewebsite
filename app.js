@@ -1,12 +1,13 @@
 var count = 1;
 
     function clickCounter(){
-        if(count < 30){
+        if(count < 11){
             document.getElementById("button").innerHTML = "Click Counter " + count;
             count++;
         }
-        if(count >= 30 ) {
-            document.getElementById("button").innerHTML = "Useless Achievement Unlocked!"; 
+        if(count == 11 ) {
+            document.getElementById("button").innerHTML = "Useless Achievement Unlocked!";
+            document.getElementById("button").style.fontSize = "70%";
             count++;
         } 
     }
