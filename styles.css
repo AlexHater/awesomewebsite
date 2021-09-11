@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0; 
@@ -14,6 +15,7 @@ body {
 nav {
   width: 100%;
   height: 5vw;
+  background: #212121;
   }
 
 .nav-links {
@@ -27,11 +29,16 @@ nav {
   margin-left: auto;
 }
 
+.nav-links li a:hover{
+  color: #4ea3a3;
+}
+
 .nav-links li a {
   text-decoration: none;
   color: white;
   font-family: sans-serif;
   font-size: 16px;
+  user-select: none;
 }
 
 #button {
@@ -39,19 +46,19 @@ nav {
   background-color: #11999E;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 8px 14px;
   text-align: center;
   text-decoration:none;
   font-size: 16px;
   position: absolute;
-  width: 200px;
-  top:5vw;
-  left: 50px;
+  width: 150px;
+  height: 40px;
+  left: 2vw;
   cursor: pointer;
   border-radius: 25px;
   z-index: 1;
   user-select: none;
-  display: none;
+  margin-top: 1vw;
 }
 
 
@@ -289,7 +296,7 @@ footer{
   position: relative;
   bottom: 0px;
   width: 100%;
-  background: rgb(42, 49, 68);
+  background: #111;
   
 }
 .main-content{
@@ -542,8 +549,8 @@ footer{
       width: 100%;
       flex-direction: column;
       z-index: 1;
-      clip-path: circle(100px at 95% -10%);
-      -webkit-clip-path:circle(100px at 95% -10%);
+      clip-path: circle(20vw at 95% -10%);
+      -webkit-clip-path:circle(20vw at 95% -10%);
       transition: all 1s ease-out;
       pointer-events: none;
       background: #11999E;
@@ -557,5 +564,8 @@ footer{
     .nav-links.open a{
     color: black;
     font-size: 32px;   
+    }
+    #button {
+      display: none;
     }
    
